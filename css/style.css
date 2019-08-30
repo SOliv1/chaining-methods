@@ -1,15 +1,12 @@
 #container
 
 {
-
 	display: flex;		/* makes container a flexbox*/
-
 	flex-flow: row wrap; 	/* layout the boxes in rows and wrap them*/
 	box-sizing:border-box;
 	margin-right:auto;
 	margin-left:auto;
 	max-width:1050px;	
-
 }
 
 .bottom_button{
@@ -23,19 +20,15 @@
 	padding: 1em .75em;
 	text-decoration: none;
 	color: #fff;
-	
+
 }
-
-
 
 .card_bottom{
 	display: flex;
 	flex-flow:column;
 }
 
-
-
-.card{
+.card_bottom{	
 	flex:1; /* */
 	display: flex;	/* make the contents controllable by flexbox*/
 	flex-flow:column;	/* */
@@ -46,18 +39,24 @@
 }
 
 
+
 /*************************
+
+
 
 Navigation
 
 **************************/
 
 .underline{
-
   text-decoration:underline;
-
 }
 
 .border{
   border: solid 5px #ccc;
 }
+
+
+
+
+
