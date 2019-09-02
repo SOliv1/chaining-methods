@@ -166,3 +166,12 @@ li{
 .makeBorder{
 	border:2px;
 }
+
+.underline{
+  text-decoration:underline;
+}
+.border{
+  border: solid 5px #ccc;
+}
+
+
